@@ -53,7 +53,7 @@ html{
 #home::before{
     content: "";
     position: absolute;
-    background: url('_MG_0008') no-repeat center center/cover;
+    background: url('_MG_0008.jpg') no-repeat center center/cover;
     top: 0;
     right: 0;
     height: 1000px;
