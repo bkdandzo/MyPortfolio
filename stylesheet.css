@@ -22,7 +22,6 @@ html{
     display: flex;
     list-style: none;
     margin: 25px 0px;
-    padding-left: 45rem;
 }
 .navbar ul li{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -46,7 +45,7 @@ html{
     display: flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.5);
-    height: 1000px;
+    height: 950px;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
@@ -54,7 +53,7 @@ html{
 #home::before{
     content: "";
     position: absolute;
-    background: url("Mybackground.jpg") no-repeat center center/cover;
+    background: url('_MG_0008.jpg') no-repeat center center/cover;
     top: 0;
     right: 0;
     height: 1000px;
@@ -76,7 +75,7 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 3rem;
     text-align: center;
-    margin: 40px 0px auto;
+    margin: 40px 0px;
 }
 .btn{
     padding: 10px 30px;
@@ -104,8 +103,6 @@ html{
     box-sizing: border-box;
     padding: 15px;
     align-items: center;
-    background-color: cadetblue;
-    color: whitesmoke;
 }
 #pic{
     display: flex;
@@ -131,7 +128,7 @@ html{
     flex-direction: column;
     color: black;
     align-items: center;
-    padding: 0 10px auto;
+    padding: 10px;
 }
 .gallery{
     display: flex;
@@ -140,9 +137,9 @@ html{
     box-sizing: border-box;
 }
 .gallery img{
-    width: 300px;
-    height: 200px;
-    margin: 15px;
+    width: 360px;
+    height: 240px;
+    margin: 25px;
 }
 
 /*Services Section*/
@@ -150,8 +147,6 @@ html{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: cadetblue;
-    color: whitesmoke;
 }
 .row{
     display: flex;
@@ -164,7 +159,7 @@ html{
     flex-direction: column;
     width: 300px;
     height: 400px;
-    background-color: rgb(28, 130, 173);
+    background-color: whitesmoke;
     border: 1px solid rgb(24, 22, 22);
     margin: 10px;
     align-items: center;
@@ -177,10 +172,10 @@ html{
 }
 .box:hover{
     background-position: left bottom;
-    color: black;
-    background-color: rgb(157, 241, 223);
+    color: whitesmoke;
+    background-color: rgba(131, 16, 41, 0.658);
     border: none;
-    box-shadow: 3px 2px white;
+    box-shadow: 0 0 30px rgb(24, 161, 150);
     text-align: justify;
 }
 .box img{
@@ -190,19 +185,14 @@ html{
     padding: 10px;
 }
 
-.box p:hover{
-    text-align: center;
-}
-
 /*Contact Section*/
 #contact{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 3px solid cadetblue ;
-    background-color: white;
-    color: black;
-    padding: 10px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    padding: 20px;
 }
 .form{
     display: flex;
@@ -213,36 +203,28 @@ html{
 }
 .input{
     padding: 5px;
-    margin: 10px;
-    width: 26%;
-    border: 2px solid black;
+    margin: 15px;
+    width: 25%;
+    border: none;
     outline: invert;
 }
 #message{
-    width: 26%;
+    width: 25%;
     padding: 5px;
     margin: 15px;
-    border: 3px solid black;
+    border: none;
     outline: invert;
 }
 #send{
     padding: 14px;
     width: 15%;
-    background-color: rgb(3, 0, 28);
-    color: whitesmoke;
+    background-color: grey;
     outline: none;
     box-sizing: border-box;
-    border-radius: 10px;
 }
 #send:hover{
     cursor: pointer;
     box-sizing: border-box;
     background-color: aqua;
     box-shadow: 0 0 30px rgb(220, 233, 232);
-}
-
-.copyright-footer{
-    text-align: center;
-    background-color: cadetblue;
-    color: aliceblue;
 }
