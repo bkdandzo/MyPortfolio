@@ -31,6 +31,7 @@ html{
 }
 .navbar ul li a{
     text-decoration: none;
+    border-radius: 10px;
     color: white;
     padding: 9px 25px;
     transition: all .5s ease;
@@ -246,6 +247,11 @@ html{
 
 .copyright-footer{
     text-align: center;
-    background-color: cadetblue;
-    color: aliceblue;
+    background-color: grey;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.copyright-footer a{
+    color: inherit;
 }
