@@ -22,7 +22,6 @@ html {
   display: flex;
   list-style: none;
   margin: 25px 0px;
-  padding-left: 40rem;
 }
 .navbar ul li {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -40,6 +39,7 @@ html {
   background-color: white;
   color: black;
   box-shadow: 0 0 12px aqua;
+  font-size: 20px;
 }
 
 /*Home Section*/
@@ -47,7 +47,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5);
-  height: 1000px;
+  height: 970px;
   justify-content: center;
   align-items: center;
   color: whitesmoke;
@@ -55,7 +55,7 @@ html {
 #home::before {
   content: "";
   position: absolute;
-  background: url("images/myPicture.jpg") no-repeat center center/cover;
+  background: url("images/bgphoto.jpg") no-repeat center center/cover;
   top: 0;
   right: 0;
   height: 1000px;
@@ -66,8 +66,8 @@ html {
 .main {
   display: flex;
   flex-direction: column;
-  border: 1px solid white;
-  border-radius: 10%;
+  border: 2px solid white;
+  border-radius: 25px;
   align-items: center;
   position: absolute;
   top: 40%;
@@ -91,13 +91,16 @@ html {
   transition: 0.6s ease;
   margin-bottom: 10px;
   border-radius: 20px;
+  height: 50px;
+  width: 150px;
 }
 .btn:hover {
   cursor: pointer;
   background-color: whitesmoke;
   color: black;
-  box-shadow: 0 0 6px white;
+  box-shadow: 0 0 7px white;
   font-weight: bolder;
+  font-size: 20px;
 }
 
 /* About Section*/
@@ -107,29 +110,32 @@ html {
   box-sizing: border-box;
   padding: 20px;
   box-sizing: border-box;
-  padding: 15px;
   align-items: center;
-  background-color: cadetblue;
+  background-color: gray;
   color: whitesmoke;
 }
 #pic {
   display: flex;
 }
 #pic img {
-  width: 250px;
+  width: 350px;
   height: 300px;
-  border-radius: 300px;
+  border-radius: 50px;
 }
 #intro {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
 }
 #intro h2 {
   font-size: 3rem;
   margin-bottom: 18px;
+}
+
+#intro p {
+  font-size: 20px;
 }
 
 /*Portfolio Section*/
@@ -157,8 +163,8 @@ html {
 #services {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  background-color: cadetblue;
+  padding: 0px 250px 20px 250px;
+  background-color: gray;
   color: whitesmoke;
 }
 .row {
@@ -173,12 +179,12 @@ html {
   width: 300px;
   height: 400px;
   background-color: rgb(91, 143, 185);
-  border: 1px solid rgb(24, 22, 22);
+  border: 2px solid rgb(24, 22, 22);
   margin: 10px;
   align-items: center;
-  text-align: left;
-  padding: 5px;
-  border-radius: 20px;
+  text-align: justify;
+  padding: 15px;
+  border-radius: 15px;
   background: linear-gradient(to top, rgba(225, 45, 45)) 50%, white 50%;
   background-size: 100% 200%;
   transition: all 0.8s;
@@ -203,9 +209,8 @@ html {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: cadetblue;
   color: whitesmoke;
-  border: 3px solid cadetblue;
+  border: 3px solid gray;
   background-color: white;
   color: black;
   padding: 10px;
@@ -235,8 +240,8 @@ html {
 }
 #send {
   padding: 15px;
-  width: 8%;
-  background-color: rgb(134, 163, 184);
+  width: 10%;
+  background-color: rgb(74, 118, 150);
   color: whitesmoke;
   outline: none;
   box-sizing: border-box;
@@ -253,7 +258,7 @@ html {
   text-align: center;
   background-color: black;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .copyright-footer a {
